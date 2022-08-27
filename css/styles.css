@@ -1,0 +1,255 @@
+:root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Text colors */
+  --main-txt-cl: #212121;
+  --secondary-txt-cl: #d9d9d9;
+  --accent-txt-cl: #2196f3;
+
+  /* Background colors */
+  --main-bg-cl: #2f303a;
+  --blue-cl: #2196f3;
+}
+
+/* Reset */
+
+.link,
+.contacts,
+.logo {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list,
+.contacts,
+.projects-list {
+  list-style: none;
+}
+
+/* Body-Студія */
+
+.page {
+  color: var(--main-txt-cl);
+}
+
+/* Header */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-blk {
+  color: #000000;
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: #2196f3;
+}
+
+.header .link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.link.active,
+.contact-link.active {
+  color: #2196f3;
+}
+
+/* Шапка */
+
+.main-title {
+  background-color: var(--main-bg-cl);
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--blue-cl);
+}
+
+/* Наші переваги */
+
+.hidden-title,
+.project-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list-features {
+  font-family: var(--main-font);
+}
+
+.feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.desc {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Чим ми займаємося */
+
+.secondary-title {
+  font-family: var(--main-font);
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.team {
+  font-family: var(--main-font);
+  background-color: #f5f4fa;
+}
+
+.title-3 {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Підвал */
+
+.footer {
+  background-color: var(--main-bg-cl);
+}
+
+.logo-clr {
+  color: #ffffff;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.link.clr {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Body-Portfolio */
+
+/* Фільтри */
+
+.btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filters .btn:hover,
+.filters .btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn.active {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/* Портфоліо */
+
+.projects {
+  font-family: var(--main-font);
+}
+
+.project {
+    background-color: #EEEEEE;
+}
+.project-name {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+
+.project-detail {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
